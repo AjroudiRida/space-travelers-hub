@@ -1,11 +1,11 @@
-import "./profile.css";
-import { useSelector } from "react-redux";
+import './profile.css';
+import { useSelector } from 'react-redux';
 
 const Profile = () => {
   const rockets = useSelector((state) => state.rockets);
   const missions = useSelector((state) => state.missions);
   const reservedRockets = rockets.rockets.filter((rocket) => {
-    if ("reserved" in rocket && rocket.reserved) {
+    if ('reserved' in rocket && rocket.reserved) {
       return true;
     }
 
@@ -13,7 +13,7 @@ const Profile = () => {
   });
 
   const joinedMissions = missions.missions.filter((mission) => {
-    if ("reserved" in mission && mission.reserved) {
+    if ('reserved' in mission && mission.reserved) {
       return true;
     }
 
