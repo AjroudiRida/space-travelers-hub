@@ -1,10 +1,10 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const url = "https://api.spacexdata.com/v3/missions";
+const url = 'https://api.spacexdata.com/v3/missions';
 
 export const getMissions = createAsyncThunk(
-  "missions/getMissions",
+  'missions/getMissions',
   async (payload, thunkAPI) => {
     try {
       const resp = await axios(url);
@@ -12,7 +12,7 @@ export const getMissions = createAsyncThunk(
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);
     }
-  }
+  },
 );
 
 const initialState = {
@@ -22,7 +22,7 @@ const initialState = {
 };
 
 const missionsSlice = createSlice({
-  name: "missions",
+  name: 'missions',
   initialState,
   reducers: {},
   extraReducers: {
