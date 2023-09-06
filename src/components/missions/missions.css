@@ -1,0 +1,38 @@
+.missions-list-table {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.th {
+  border: 1px solid #dee2e6;
+  padding: 1rem 0.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.th-1 {
+  flex: 1;
+}
+
+.th-2 {
+  flex: 4;
+}
+
+.th-3 {
+  flex: 1;
+}
+
+.th-4 {
+  flex: 1;
+}
