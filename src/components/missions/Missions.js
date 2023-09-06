@@ -21,9 +21,9 @@ const Missions = () => {
         <div className="th th-4" />
       </div>
       <div className="table-body">
-        {missions.missions.map((mission) => (
-          <Mission key={mission.mission_id} mission={mission} />
-        ))}
+        {
+          missions.missions.map((mission) => <Mission key={mission.mission_id} mission={mission} />)
+        }
       </div>
     </div>
   );
