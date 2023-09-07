@@ -11,7 +11,7 @@ const Header = () => (
       </Link>
       <ul className="menu">
         <li className="menu_item">
-          <NavLink className="link_item" to="/" data-testid="rockets-link">
+          <NavLink className="link_item" to="/">
             Rockets
           </NavLink>
         </li>
@@ -24,7 +24,6 @@ const Header = () => (
           <NavLink
             className="link_item"
             to="/profile"
-            data-testid="profile-link"
           >
             My Profile
           </NavLink>
