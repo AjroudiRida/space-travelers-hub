@@ -1,0 +1,57 @@
+.rocket-item {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 2rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.img {
+  width: 100%;
+}
+
+.rocket-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.rocket-name {
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+.rocket-description {
+  line-height: 3rem;
+}
+
+.rocket-reserve-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1.6rem 2.3rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.reserved {
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+}
+
+.cancel-rocket-reserve {
+  background-color: transparent;
+  border: 1px solid #6d757d;
+  color: #6d757d;
+  border-radius: 5px;
+  padding: 1.6rem 2.3rem;
+  font-size: 2rem;
+  font-weight: 400;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-not-active {
+  background-color: #6d757d;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.status-active {
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.cell {
+  border: 1px solid #dee2e6;
+  padding: 1rem 0.5rem;
+}
+
+.cell-1 {
+  flex: 1;
+}
+
+.cell-2 {
+  flex: 4;
+}
+
+.cell-3 {
+  flex: 1;
+}
+
+.cell-4 {
+  flex: 1;
+}
+
+.cell-3,
+.cell-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-btn {
+  background-color: transparent;
+  border: 1px solid #343a40;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #343a40;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.mission-leave-btn {
+  background-color: transparent;
+  border: 1px solid #df4755;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #df4755;
+  font-size: 2rem;
+  cursor: pointer;
+}

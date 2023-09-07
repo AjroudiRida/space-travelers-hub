@@ -1,0 +1,32 @@
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.mission-item,
+.rocket {
+  border-bottom: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+  padding: 2rem 3rem;
+}
+
+.mission-item:nth-child(2),
+.rocket:nth-child(2) {
+  border-top: 1px solid #e9e9e9;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.mission-item:nth-child(5),
+.rocket:nth-child(4) {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.missions-title,
+.rockets-title {
+  margin-bottom: 1rem;
+}
