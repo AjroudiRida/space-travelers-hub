@@ -49,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [soon]()
+- [Live demo Link](https://jocular-ganache-ab3461.netlify.app/)
 
  ## 🔭 Future Features <a name="future-features"></a>
 
